@@ -1,0 +1,30 @@
+{
+    "name" : "cimus/geo-bundle",
+    "description" : "Symfony2 GeoBundle",
+    "type" : "symfony-bundle",
+    "homepage": "https://github.com/Cimus/geo-bundle",
+    "license" : "MIT",
+    "keywords" : ["ip Geo Base", "GeoBundle", "symfony"],
+    "authors" : [{
+        "name" : "Sergey Ageev (Cimus)",
+        "email" : "s_ageev@mail.ru"
+    }],
+    "require" : {
+        "php": ">=5.5.0",
+        "cimus/ip-geo-base": "^1.0"
+    },
+    "autoload" : {
+        "psr-4" : { "Cimus\\GeoBundle\\" : "" }
+    },
+    "minimum-stability": "dev",
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+    
+}
+
+
+
+
