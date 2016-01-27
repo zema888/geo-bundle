@@ -1,6 +1,7 @@
 {
     "name" : "cimus/geo-bundle",
     "description" : "Symfony2 GeoBundle",
+    "version" : "v1.0.1",
     "type" : "symfony-bundle",
     "homepage": "https://github.com/Cimus/geo-bundle",
     "license" : "MIT",
