@@ -1,0 +1,5 @@
+services:
+    cimus.geo:
+        class: Cimus\GeoBundle\Services\Geo
+        arguments: [%cimus.geo.cache_dir%]
+        lazy: true
