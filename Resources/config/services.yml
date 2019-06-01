@@ -1,5 +1,10 @@
 services:
     cimus.geo:
         class: Cimus\GeoBundle\Services\Geo
-        arguments: [%cimus.geo.cache_dir%]
+        arguments: ['%cimus.geo.cache_dir%']
         lazy: true
+
+    cimus.geo.update:
+        class: Cimus\GeoBundle\Command\UpdateCommand
+        tags:
+            - { name: console.command, command: cimus:geo:update }
